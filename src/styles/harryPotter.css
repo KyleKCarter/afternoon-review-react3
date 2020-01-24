@@ -1,0 +1,41 @@
+.hp_page {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-image: url(https://ae01.alicdn.com/kf/Hcee7dc17bf31401fbe313e90e2f31e61z/Custom-Harry-Magic-School-Hogwarts-Castle-Dinner-Backdrop-Birthday-Party-Background-for-Potterl-Background-Photography.jpg_960x960.jpg);
+    box-shadow: rgba(0, 0, 0, 0.379) 2.5px 3px 5px 0px;
+}
+
+.hp_page h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    color: white;
+}
+
+.hp_content {
+    height: 50%;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.hp_content button {
+    width: 25vw;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.hp_content button:hover {
+    cursor: pointer;
+}
+
+.hp_content h3 {
+    font-family: cursive;
+    font-size: 25px;
+}

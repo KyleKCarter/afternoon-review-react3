@@ -1,0 +1,38 @@
+.chuck_norris_page {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+    background-color: rgb(155, 27, 27);
+    /* background-image: url(https://www.duffelblog.com/wp-content/uploads/2012/03/chucknorris.jpeg); */
+    box-shadow: rgba(0, 0, 0, 0.379) 2.5px 3px 5px 0px;
+}
+
+.chuck_norris_page h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+
+.chuck_content {
+    height: 50%;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.chuck_content button {
+    width: 5vw;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.chuck_content button:hover {
+    cursor: pointer;
+}
